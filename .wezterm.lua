@@ -23,9 +23,11 @@ config.color_schemes = {
 		brights = { "#505050", "#ff0000", "#87af00", "#ffaf00", "#0087ff", "#af005f", "#00afaf", "#e4e4e4" },
 	},
 }
-config.color_scheme = "Breath Darker (Gogh)"
+--config.color_scheme = "Breath Darker (Gogh)"
 --config.color_scheme = "tfox"
-
+--config.color_scheme = "zenwritten_dark"
+--config.color_scheme = "Afterglow (Gogh)"
+config.color_scheme = "Atelier Savanna (base16)"
 config.keys = {
 	{ key = "f", mods = "CMD", action = "ToggleFullScreen" },
 	{ key = "t", mods = "CMD", action = wezterm.action({ SpawnTab = "CurrentPaneDomain" }) },
