@@ -34,7 +34,7 @@ config.keys = {
 	{ key = "c", mods = "CMD", action = wezterm.action({ CloseCurrentTab = { confirm = true } }) },
 	{ key = "b", mods = "CMD", action = wezterm.action({ ActivateTabRelative = -1 }) },
 	{ key = "n", mods = "CMD", action = wezterm.action({ ActivateTabRelative = 1 }) },
-	{ key = "e", mods = "CMD", action = wezterm.action({ CloseCurrentPane = { confirm = true } }) },
+	{ key = "e", mods = "CMD", action = wezterm.action.QuitApplication },
 }
 
 return config
