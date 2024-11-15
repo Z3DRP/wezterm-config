@@ -31,7 +31,7 @@ config.color_scheme = "Atelier Savanna (base16)"
 config.keys = {
 	{ key = "f", mods = "CMD", action = "ToggleFullScreen" },
 	{ key = "t", mods = "CMD", action = wezterm.action({ SpawnTab = "CurrentPaneDomain" }) },
-	{ key = "c", mods = "CMD", action = wezterm.action({ CloseCurrentTab = { confirm = true } }) },
+	{ key = "d", mods = "CMD", action = wezterm.action({ CloseCurrentTab = { confirm = true } }) },
 	{ key = "b", mods = "CMD", action = wezterm.action({ ActivateTabRelative = -1 }) },
 	{ key = "n", mods = "CMD", action = wezterm.action({ ActivateTabRelative = 1 }) },
 	{ key = "e", mods = "CMD", action = wezterm.action.QuitApplication },
